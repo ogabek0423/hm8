@@ -6,11 +6,11 @@ def read_file(file_path):
         print(f"Data read from  {file_path}: \n {data}")
 
 def main():
-    file_path1 = 'file1.txt'
-    file_path2 = 'file2.txt'
-    file_path3 = 'file3.txt'
-    file_path4 = 'file4.txt'
-    file_path5 = 'file5.txt'
+    file_path1 = 'file1txt'
+    file_path2 = 'file2txt'
+    file_path3 = 'file3txt'
+    file_path4 = 'file4txt'
+    file_path5 = 'file5txt'
 
     thread1 = threading.Thread(target=read_file, args=(file_path1,))
     thread2 = threading.Thread(target=read_file, args=(file_path2,))

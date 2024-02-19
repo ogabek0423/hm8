@@ -9,11 +9,11 @@ def write_to_file(file_path, data):
         print(f"Data written to {file_path}")
 
 def main():
-    file_path1 = 'file1.txt'
-    file_path2 = 'file2.txt'
-    file_path3 = 'file3.txt'
-    file_path4 = 'file4.txt'
-    file_path5 = 'file5.txt'
+    file_path1 = 'filtxt'
+    file_path2 = 'file2xt'
+    file_path3 = 'file3xt'
+    file_path4 = 'file'
+    file_path5 = 'file'
 
     data1 = '1-fayl malumot'
     data2 = '2-fayl malumot'
