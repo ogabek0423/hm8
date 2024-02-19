@@ -30,8 +30,6 @@ def main():
     process2.join()
 
 
-
-
 if __name__ == "__main__":
     print(datetime.now().time())
     main()

@@ -2,6 +2,7 @@ import psycopg2 as db
 
 import os
 
+
 from dotenv import load_dotenv
 load_dotenv()
 

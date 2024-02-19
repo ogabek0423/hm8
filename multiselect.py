@@ -1,5 +1,4 @@
 import multiprocessing
-import time
 from datetime import datetime
 from base import Database
 
