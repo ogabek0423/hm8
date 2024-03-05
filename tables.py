@@ -48,10 +48,3 @@ def create():
         print(f"Database {i} + {Database.connect(data_tables[i], "create")}")
 
 
-
-if __name__ == "__main__":
-    print(datetime.now().time())
-    create()
-    print(datetime.now().time())
-
-
